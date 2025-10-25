@@ -3,4 +3,61 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top {
+  color: white;
+  background-color: slateblue;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: large;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightyellow;
+}
+
+#input-el {
+  width: 100px;
+  height: 25px;
+  font-size: large;
+  border-radius: 3px;
+  background: none;
+  font-weight: bold;
+  color: white;
+  border: 3px solid lightgrey;
+  outline: none;
+}
+
+.conversion-block {
+  background-color: white;
+  color: darkslategray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 80%;
+  font-size: large;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.bottom {
+  background-color: lightgray;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

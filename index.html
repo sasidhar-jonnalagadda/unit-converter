@@ -7,14 +7,24 @@
     <script src="index.js" defer></script>
   </head>
   <body>
-    <h1>Metric/Imperial Unit Conversion</h1>
-    <input type="number" id="input-el" />
-    <button id="convert-btn">Convert</button>
-    <h2>Length (Meter/Feet)</h2>
-    <p id="length-el"></p>
-    <h2>Volume (Liters/Gallons)</h2>
-    <p id="volume-el"></p>
-    <h2>Mass (Kilograms/Pounds)</h2>
-    <p id="mass-el"></p>
+    <div class="top">
+      <h1>Metric/Imperial Unit Conversion</h1>
+      <input type="number" id="input-el" />
+      <button id="convert-btn">Convert</button>
+    </div>
+    <div class="bottom">
+      <div class="conversion-block">
+        <h2>Length (Meter/Feet)</h2>
+        <p id="length-el"></p>
+      </div>
+      <div class="conversion-block">
+        <h2>Volume (Liters/Gallons)</h2>
+        <p id="volume-el"></p>
+      </div>
+      <div class="conversion-block">
+        <h2>Mass (Kilograms/Pounds)</h2>
+        <p id="mass-el"></p>
+      </div>
+    </div>
   </body>
 </html>
